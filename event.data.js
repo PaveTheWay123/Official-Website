@@ -8,4 +8,10 @@
     }
 * */
 const EVENT_DATA = [
+    {
+        "name": "First Event",
+        "dateString": "27th of July 2024",
+        "description": "Event description",
+        "src": "images/Event-1.jpeg"
+    }
     ];
