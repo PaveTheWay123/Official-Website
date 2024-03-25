@@ -52,6 +52,7 @@ const EVENT_DATA = [
 
     {
         "name": "Up Coming Events",
+        "dateString": "",
         "description": "Stay Tuned for Up Coming Events",
         "src": "images/pave-the-way-logo-2.jpeg"
     },
