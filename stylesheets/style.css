@@ -633,6 +633,12 @@ button, button * {
     flex: 1;
 }
 
+#pop-up-event-screen .modal-content .image-section img {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
 #pop-up-event-screen .modal-content figure {
     position: relative;
     width: 500px;
@@ -745,13 +751,15 @@ button, button * {
     #photo-section section {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
     #photo-section article {
         flex: none !important;
-        height: 300px !important;
+        height: 350px !important;
+        width: 350px;
     }
     #meet-the-team-section {
-        top: 2500px;
+        top: 2900px;
         width: 100vw;
     }
     #meet-the-team-section #team-info {
@@ -761,7 +769,7 @@ button, button * {
     }
     #events-section {
         width: 100vw;
-        top: 3300px;
+        top: 3700px;
     }
     #events-section .events-list-section {
         flex-direction: column;
@@ -784,16 +792,16 @@ button, button * {
         margin: 0px;
     }
     #their-stories-section {
-        top: 3250px;
+        top: 3650px;
     }
     #how-to-help-section {
-        top: 3300px;
+        top: 3700px;
     }
     #qa-section {
-        top: 3400px;
+        top: 3800px;
     }
     #contact-us-section {
-        top: 3500px;
+        top: 3900px;
     }
     #pop-up-event-screen .modal-content {
         flex-direction: column;
@@ -812,6 +820,7 @@ button, button * {
     #pop-up-event-screen .image-section figure {
         display: block;
         height: 200px;
+        margin: 40px 0 0;
     }
     #pop-up-event-screen .image-section figure img {
         top: 0;
